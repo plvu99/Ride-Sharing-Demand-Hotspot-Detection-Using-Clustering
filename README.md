@@ -100,8 +100,8 @@ The model achieved R² = 0.765, indicating that temporal variables explain a sig
 
 Key findings include:
 
-* weekends show significantly lower demand
-* demand increases progressively from spring to late summer
+* Weekends show significantly lower demand
+* Demand increases progressively from spring to late summer
 * September exhibits the highest ride volumes
 
 Regression analysis validates patterns observed during EDA and quantifies their statistical significance. 
