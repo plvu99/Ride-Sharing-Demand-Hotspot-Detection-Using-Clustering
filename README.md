@@ -22,9 +22,9 @@ Even when drivers are geographically close, inefficient distribution across the 
 
 Without understanding spatial demand patterns, platforms struggle to:
 
-* Position drivers effectively
-* Anticipate peak demand hours
-* Optimize matching algorithms
+* position drivers effectively
+* anticipate peak demand hours
+* optimize matching algorithms
 
 The key challenge is therefore: _How can Uber dynamically identify demand hotspots and recommend optimal zones for drivers to increase matching efficiency and reduce wait times?_
 
@@ -43,11 +43,11 @@ Each observation represents an individual ride request and includes:
 
 During preprocessing, additional features were engineered:
 
-* Month
-* Week
-* Day of week
-* Hour of day
-* Weekday vs. Weekend classification
+* month
+* week
+* day of week
+* hour of day
+* weekday vs. weekend classification
 
 These temporal features enable analysis of demand patterns across hours, days, and months. 
 
@@ -59,10 +59,10 @@ The analysis combines exploratory data analysis, regression modeling, and cluste
 
 Key preprocessing steps included:
 
-* Converting timestamp fields to datetime format
-* Extracting temporal features (month, day, hour)
-* Categorizing trips as weekday or weekend
-* Aggregating trip counts across time intervals
+* converting timestamp fields to datetime format
+* extracting temporal features (month, day, hour)
+* categorizing trips as weekday or weekend
+* aggregating trip counts across time intervals
 
 These transformations enabled time-series analysis of demand patterns. 
 
@@ -100,8 +100,8 @@ The model achieved R² = 0.765, indicating that temporal variables explain a sig
 
 Key findings include:
 
-* Weekends show significantly lower demand
-* Demand increases progressively from spring to late summer
+* weekends show significantly lower demand
+* demand increases progressively from spring to late summer
 * September exhibits the highest ride volumes
 
 Regression analysis validates patterns observed during EDA and quantifies their statistical significance. 
@@ -173,7 +173,9 @@ This allows platforms to proactively reposition drivers.
 
 ## ⚙ Tools & Technologies
 
-* Python (Pandas, NumPy, Matplotlib, Seaborn)
+* Python
+* Data preprocessing (Pandas, NumPy)
+* Data visualization (Matplotlib, Seaborn)
 * Scikit-learn (K-Means clustering)
 * Statsmodels (OLS regression)
 * Folium (Interactive cluster maps)
