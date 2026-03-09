@@ -6,7 +6,7 @@ Ride-hailing platforms like Uber operate as two-sided marketplaces, matching rid
 
 When drivers are not located near high-demand areas, rider wait times increase significantly. Research from Uber indicates that most riders are willing to wait only 5–7 minutes before canceling a ride request.
 
-This project analyzes **4.5 million Uber pickup records in New York City (April–September 2014)** to identify spatial and temporal demand patterns. Using **clustering techniques and time-based analysis**, the study identifies **dynamic hotspot zones** where driver supply should be concentrated to improve rider-driver matching efficiency.
+This project analyzes 4.5 million Uber pickup records in New York City (April–September 2014) to identify spatial and temporal demand patterns. Using **clustering techniques and time-based analysis**, the study identifies **dynamic hotspot zones** where driver supply should be concentrated to improve rider-driver matching efficiency.
 
 The resulting framework can help ride-hailing platforms reduce rider wait times, decrease cancellations, and optimize driver allocation.
 
