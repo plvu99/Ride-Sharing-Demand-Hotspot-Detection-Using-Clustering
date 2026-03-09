@@ -173,7 +173,7 @@ This allows platforms to proactively reposition drivers.
 
 ## ⚙ Tools & Technologies
 
-* Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Statsmodels)
-* K-Means clustering
-* OLS regression
-* Folium (interactive cluster maps)
+* Python (Pandas, NumPy, Matplotlib, Seaborn)
+* Scikit-learn (K-Means clustering)
+* Statsmodels (OLS regression)
+* Folium (Interactive cluster maps)
