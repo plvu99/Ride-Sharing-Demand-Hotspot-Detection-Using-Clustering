@@ -47,7 +47,7 @@ During preprocessing, additional features were engineered:
 * Week
 * Day of week
 * Hour of day
-* Weekday vs weekend classification
+* Weekday vs. Weekend classification
 
 These temporal features enable analysis of demand patterns across hours, days, and months. 
 
